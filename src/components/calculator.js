@@ -54,8 +54,16 @@ function Calculator()
     {
         if(event.target.value==='-1')
             {
-                setInput(input.slice(0,input.length-1))
-                setResult('')
+               if(input==='')
+                {
+                    setResult('')
+                }
+                else
+                {
+                    setInput(input.slice(0,input.length-1))
+                    setResult('')
+                }
+                
             }
         else
         {

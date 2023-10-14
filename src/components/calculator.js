@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import moon from '/Users/moon/Documents/Programming/MERN/REACT/task2/src/images/moon-solid.png';
-import sun from '/Users/moon/Documents/Programming/MERN/REACT/task2/src/images/sun.png';
+import moon from '../images/moon-solid.png';
+import sun from '../images/sun.png';
 import './calculator.css'
 function Calculator()
 {

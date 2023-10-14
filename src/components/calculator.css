@@ -1,0 +1,153 @@
+.body-top
+{
+    position: relative;
+    margin-left:40vw;
+    margin-top:20vh;
+    height: 20vh;
+    width: 20vw;   
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: scroll;
+}
+.body-bottom
+{
+    position: relative;
+    margin-left: 40vw;
+    margin-top: 0px;
+    height: 40vh;
+    width:20vw;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+}
+.input-left
+{
+    position: relative;
+    height: 100%;   
+    width: 75%;
+
+}
+.input-right
+{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+   
+}
+.input-numbers-dark
+{
+    width: 4vw;
+    height: 10vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:  white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.input-numbers-light
+{
+    width: 4vw;
+    height: 10vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:  white;
+    font-size: larger;
+    font-weight: 700;
+}
+.input-operators-light
+{
+    width:4vw;
+    height:8vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:orange;
+    font-size: larger;
+    font-weight: 700;
+}
+.equals
+{
+    color:orange !important;
+}
+
+.del
+{
+    color:red !important;
+}
+.input-operators-dark
+{
+    width:4vw;
+    height:8vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:rgb(87,100,133);
+    font-size: larger;
+    font-weight: 700;
+}
+#lightswitch
+{
+    cursor: pointer;
+}
+.top-working-space
+{
+    height: 100%;
+    text-align: end;
+    padding-bottom:100px;
+}
+.input-light
+{
+    position: relative;
+    font-weight: 500;
+    color:rgb(2,4,23);
+    padding-right: 15px;
+}
+.input-dark
+{
+    position: relative;
+    font-weight: 500;
+    color:white;
+    padding-right: 15px;
+}
+
+.result-light
+{
+    position: relative;
+    font-weight: 800;
+    font-size: 200%;
+    padding-right: 15px;
+    color:rgb(2,4,23);
+}
+.result-dark
+{
+    position: relative;
+    font-weight: 800;
+    font-size: 200%;
+    color:white;
+    padding-right: 15px;
+}
+
+.body-top-dark
+{
+    background-color: rgb(10,29,89);
+}
+.body-bottom-dark
+{
+    background-color: rgb(2,4,23);
+}
+
+.body-top-light
+{
+    background-color: rgb(201,203,203);
+}
+
+.body-bottom-light
+{
+    background-color: #787575;
+}
+
+
